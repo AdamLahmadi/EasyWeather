@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Weather App</title>
+
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col s4"></div>
+            <div class="col s5">
+              <div id="alert">
+              </div>
+              <div class="card">
+                <div class="card-content" id="weather-card">
+                    <div id="display" class="day">
+                      <div class="city">
+                        <h5 id="city">Hong Kong</h5>
+                      </div>
+                      <div class="main-temperature" id="temperature">
+                        25<sup>°C</sup>
+                      </div>
+                        <div class="icon-div" id="weather-div">
+                          <img src="img/sunny.svg" alt="" id="weather-icon">
+                        </div>
+                        <div class="icon-div" id="rain-div">
+                          <img src="img/rain-mini.svg" alt="" id="rain-icon">
+                          <p id="rain-text">2% Humidity</p>
+                        </div>
+                        <div class="icon-div" id="wind-div">
+                          <img src="img/mini-wind.svg" alt="" id="wind-icon">
+                          <p id="wind-text">5km/h wind</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-action">
+                  <form id="location-form" class="row">
+                    <input id="location" type="text" placeholder="Choose location..." class="col s7">
+                    <button class="btn waves-effect waves-light col s4 " type="submit" name="action">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="api.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

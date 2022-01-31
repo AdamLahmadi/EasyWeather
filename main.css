@@ -1,0 +1,104 @@
+h5{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+sup {
+    vertical-align: super;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#alert{
+    margin: 10px 0;
+}
+
+.alert{
+    background-color: rgba(245, 34, 34, 0.3);
+    border: 1px solid;
+    color: red;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#weather-card{
+    padding: 0;
+}
+
+#display{
+    display: grid;
+    text-align: center;
+    padding: 5px 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    grid-template-areas: 
+    'city city'
+    'temp icon'
+    'rain wind';      
+}
+
+
+#display .city{
+    grid-area: city;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.9);
+    margin: 10px;
+    margin-top: 0;
+}
+
+#display .city p{
+    color: grey;
+}
+
+
+#display .main-temperature{
+    grid-area: temp;
+    font-size: 4.5rem;
+    align-self: auto;
+    font-weight: 300;
+    margin-bottom: .5rem;
+}
+
+#weather-icon{
+    width: 5rem;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+#rain-icon{
+    width: 2.5rem;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+#wind-icon{
+    width: 2.5rem;
+    margin: 10px;
+    margin-left: 25px;
+}
+
+.icon-div p{
+    color: grey;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+#location-form{
+    display: flex;
+}
+
+#location{
+    margin-right: 5px;
+}
+
+#location-form button{
+    margin-top: 7px;
+    margin-left: 15px;
+}
