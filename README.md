@@ -9,5 +9,5 @@ The application is written in native JavaScript HTML and CSS, no additional pack
 Input the city you want in the search bar and press the send button:
 
 ![Alt Text](ReadmeGifs/gif1.gif)
-
+error
 ![Alt Text](ReadmeGifs/gif2.gif)
