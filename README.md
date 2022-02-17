@@ -6,6 +6,8 @@ The application is written in native JavaScript HTML and CSS, no additional pack
 
 ## Usage
 
-Input the city you're interested in, in the search bar and press the send button:
+Input the city you want in the search bar and press the send button:
 
 ![Alt Text](ReadmeGifs/gif1.gif)
+
+![Alt Text](ReadmeGifs/gif2.gif)
