@@ -10,3 +10,4 @@ Input the city you want in the search bar and press the send button:
 
 ![Alt Text](ReadmeGifs/gif1.gif)
 
+![Alt Text](ReadmeGifs/gif2.gif)
